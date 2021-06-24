@@ -1,0 +1,18 @@
+const devConfig = {
+  dbHost: 'xxxxx',
+  dbUser: 'xxxxx',
+  dbPassword: 'xxxx'
+};
+
+const prodConfig = {
+  dbHost: 'xxxxx',
+  dbUser: 'xxxxx',
+  dbPassword: 'xxxx'
+};
+
+if(process.env.NODE_ENV == 'prod') {
+  module.exports = prodConfig;
+}
+else {
+  module.exports = devConfig;
+}
