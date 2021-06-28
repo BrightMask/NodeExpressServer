@@ -1,7 +1,7 @@
 const devConfig = {
-  dbHost: 'xxxxx',
-  dbUser: 'xxxxx',
-  dbPassword: 'xxxx'
+  dbHost: 'localhost',
+  dbUser: 'root',
+  dbPassword: 'XU159357xly_'
 };
 
 const prodConfig = {

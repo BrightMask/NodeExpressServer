@@ -1,0 +1,53 @@
+[2021-06-28T16:09:53.878] [INFO] default - http server start, listen 80...
+[2021-06-28T16:09:53.883] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:09:54.089] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:09:54.445] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:09:55.041] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:09:56.039] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:09:57.719] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:10:00.565] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:10:05.408] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:10:13.628] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:10:27.591] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:10:51.326] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:11:31.682] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:12:40.267] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:14:36.859] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:17:55.063] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:20:26.703] [INFO] default - http server start, listen 80...
+[2021-06-28T16:20:26.708] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:20:26.916] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:20:27.271] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:20:27.853] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:20:28.850] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:20:30.527] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:20:33.374] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:20:38.211] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:20:46.427] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:21:01.349] [INFO] default - http server start, listen 80...
+[2021-06-28T16:21:01.354] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:21:01.569] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:21:01.924] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:21:02.519] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:21:03.516] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:21:05.198] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:21:08.056] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:21:12.887] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:21:21.099] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:21:35.067] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:21:58.806] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:22:16.003] [INFO] default - http server start, listen 80...
+[2021-06-28T16:22:16.009] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:22:16.215] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:22:16.562] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:22:17.153] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:22:18.156] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:22:19.838] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:22:22.685] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:22:27.527] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:22:35.743] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:22:49.707] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:23:13.442] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:23:53.793] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:25:02.383] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:26:58.981] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
