@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
+    "address": "^1.1.2",
     "body-parser": "^1.19.0",
     "connect-redis": "^6.0.0",
     "cookie-parser": "^1.4.5",
@@ -15,10 +16,13 @@
     "redis": "^3.1.2",
     "uuid": "^8.3.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "dev": "cross-env NODE_ENV=dev node ./server.js",
+    "prod": "NODE_ENV=prod node ./src/server.js"
   },
   "repository": {
     "type": "git",

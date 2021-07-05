@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-06-18 10:40:16
- * @LastEditTime: 2021-06-28 16:02:58
+ * @LastEditTime: 2021-07-05 11:25:44
  * @LastEditors: Please set LastEditors
  * @Description: 入口文件
  * @FilePath: \expressServer\app.js
@@ -26,6 +26,7 @@ require('./config/logCfg');
 
 // app.set('views', path.join(__dirname, 'views'));
 // app.set('view engine', 'ejs');
+
 // 通过 express.json() 这个中间件，解析表单中的 JSON 格式的数据
 app.use(express.json());
 //express.urlencoded 解析 URL-encoded 格式的请求体数据
@@ -64,6 +65,7 @@ app.use((req, res, next) => {
 });
 
 app.use((err, req, res, next) => {
+  console.log('err-=====', err)
   if(err.name == 'NotFoundError') {
     res.status(404).json(commonDto.serverErrRespond(err));
   }

@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-06-28 14:16:16
- * @LastEditTime: 2021-06-28 14:39:49
+ * @LastEditTime: 2021-06-29 13:30:43
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \expressServer\service\loginService.class.js
@@ -12,10 +12,8 @@ const commonModel = new CommonModel();
 
 class LoginService {
     constructor () {}
-
     async getUserInfoAndAuth(username, password) {
         let {err, results} = await commonModel.findUserInfoByUserName(username)
-
         if(err) {
             return {
                 err,
@@ -27,7 +25,6 @@ class LoginService {
                 result: null
             }
         }
-
         return {
             err: null,
             result: results[0]

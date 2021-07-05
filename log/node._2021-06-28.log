@@ -51,3 +51,9 @@
 [2021-06-28T16:23:53.793] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
 [2021-06-28T16:25:02.383] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
 [2021-06-28T16:26:58.981] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:30:17.191] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:35:54.131] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T16:45:26.933] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T17:01:40.675] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T17:22:16.186] [ERROR] default - uncaughtException: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+[2021-06-28T17:22:16.191] [ERROR] default - uncaughtException: Error: Redis connection in broken state: connection timeout exceeded.
