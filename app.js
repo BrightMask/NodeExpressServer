@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-06-18 10:40:16
- * @LastEditTime: 2021-07-05 11:25:44
+ * @LastEditTime: 2021-07-06 14:29:03
  * @LastEditors: Please set LastEditors
  * @Description: 入口文件
  * @FilePath: \expressServer\app.js
@@ -19,6 +19,7 @@ const CommonDto = require('./dto/commonDto.class');
 
 const app = express();
 const commonDto = new CommonDto();
+const authRouter = require('./routes/auth');
 
 require('./config/dbCfg');
 require('./config/redisCfg');
@@ -49,6 +50,7 @@ app.use((req, res, next) => {
   req.session._garbage = Date();
   req.session.touch();
   next();
+
 });
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
@@ -58,14 +60,14 @@ app.use((req, res, next) => {
 });
 
 require('./routes')(app);
+// app.use('/web/auth', authRouter);
 
-app.use((req, res, next) => {
-  // 有这个中间件才能抛出错误，下面的中间件才能接到
-  next(createError(404));
-});
+// app.use((req, res, next) => {
+//   // 有这个中间件才能抛出错误，下面的中间件才能接到
+//   next(createError(404));
+// });
 
 app.use((err, req, res, next) => {
-  console.log('err-=====', err)
   if(err.name == 'NotFoundError') {
     res.status(404).json(commonDto.serverErrRespond(err));
   }

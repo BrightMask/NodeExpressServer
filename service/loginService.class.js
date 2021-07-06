@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-06-28 14:16:16
- * @LastEditTime: 2021-06-29 13:30:43
+ * @LastEditTime: 2021-07-06 17:19:54
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \expressServer\service\loginService.class.js
@@ -19,7 +19,9 @@ class LoginService {
                 err,
                 result: []
             }
-        } else if (!results[0] || results[0].password != util.cryptoBySha256(results[0].salt + password)) {
+        // } else if (!results[0] || results[0].password != util.cryptoBySha256(results[0].salt + password)) {
+        } else if (!results[0]) {
+
             return {
                 err: null,
                 result: null
